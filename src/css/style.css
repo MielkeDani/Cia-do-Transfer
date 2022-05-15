@@ -1,0 +1,104 @@
+/* Header  */
+
+.caixaHeader { 
+    background:#005E2C;;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgCaixaHeader { 
+    width: 8rem;
+}
+
+.menuNav { 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 25%;
+    justify-content: space-around;
+    
+}
+
+
+.menuNav-itens { 
+    color: white; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* About Me */
+.aboutMe { 
+    margin: 10% 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Question  */
+.why { 
+    background-color: #005E2C;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    
+
+}
+
+.question { 
+    display: flex ;
+    flex-direction: column;
+    color: aliceblue;
+    line-height: 2;
+
+} 
+
+.question-title, .TurismPoints-list-title { 
+    font-weight: bold;
+}    
+
+
+.itens::before {
+        content: "🚗";
+}
+      
+
+.TurismPoints { 
+    display: flex;
+    font-family: 'Roboto', sans-serif ; 
+    padding:5rem;
+    
+}
+
+.TurismPoints-list { 
+    width: 50% ;  
+    margin-bottom: 3rem;
+    line-height: 2;
+}
+
+.city::before { 
+    content: "🚗";
+}
+
+/* Footer */
+.footer { 
+	text-align: center;
+	background: #003218;
+	padding: 40px 0 ;
+    font-family: 'Roboto', sans-serif ; 
+} 
+
+.logoFooter { 
+    width: 8rem;
+}
+
+.copyright { 
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	margin: 20px 0 0 ; 
+}
